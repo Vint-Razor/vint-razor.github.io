@@ -259,7 +259,7 @@ footer nav a:hover{
 }
 
 #map{
-	
+	margin: 0 auto;
 	height: 400px;
 	max-width: 700px;
 	width: 100%;
