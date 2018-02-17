@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Мебель</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body>
+	
+
+	<header>
+		<div class="logo">
+			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="Logo"></a>
+		</div>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">HOME</a>
+				<a href="projects.html">ПРОЕКТЫ</a>
+				<a href="blog.html">БЛОГ</a>
+				<a href="contact.html">СВЯЗЬ</a>
+				<a href="about.html">О НАС</a>
+				<a href="services.html">СЕРВИСЫ</a>
+				<a href="location.html">МЫ ЗДЕСЬ</a>
+				<a id="menu" href="#" class="icon">&#9776;</a>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<div id="map"></div>
+	</main>
+
+
+	<footer>
+		<nav>
+				<a href="index.html">HOME</a>
+				<a href="projects.html">ПРОЕКТЫ</a>
+				<a href="blog.html">БЛОГ</a>
+				<a href="contact.html">СВЯЗЬ</a>
+				<a href="about.html">О НАС</a>
+				<a href="services.html">СЕРВИСЫ</a>
+				<a href="location.html">МЫ ЗДЕСЬ</a>
+		</nav>
+		<div class="logo">
+			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+		</div>
+		<div class="social">
+			<a href="#"><img src="img/social_icon/em.png" alt=""></a>
+			<a href="#"><img src="img/social_icon/face.png" alt=""></a>
+			<a href="#"><img src="img/social_icon/goo.png" alt=""></a>
+			<a href="#"><img src="img/social_icon/inst.png" alt=""></a>
+			<a href="#"><img src="img/social_icon/pint.png" alt=""></a>
+		</div>
+
+		<p>Vint Razor Lab. 2018</p>
+	</footer>
+
+
+	 <script>
+      function initMap() {
+        var uluru = {lat: 55.1408000, lng: 61.4957500};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB44jI8Jzat061S9s-DZ98WPVpNSaoU6FA&callback=initMap">
+    </script>
+
+
+	
+	<script src="js/script.js"></script>		
+</body>
+</html>
