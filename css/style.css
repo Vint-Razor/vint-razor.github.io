@@ -149,8 +149,8 @@ footer nav a:hover{
 }
 
 /*.photo-item img:hover{
-	border: 3px double red;*/
-}
+	border: 3px double red;
+}*/
 
 .blog-container{
 	background: #fafafa;
@@ -261,7 +261,7 @@ footer nav a:hover{
 #map{
 	
 	height: 400px;
-	max-weight: 700px;
+	max-width: 700px;
 	width: 100%;
 }
 
