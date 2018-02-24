@@ -1,3 +1,14 @@
+/*
+
+Стили для cайта "Столы и Стулья"
+размещение: www.chearlead.tk
+хостинг: GITHUB
+разработчик: Vint_Razor_Lab
+
+========= 02.2018 ===========
+ */
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -167,13 +178,13 @@ footer nav a:hover{
 	border-radius: 0 50px 50px 0;
 	position:absolute;
 	bottom:0;
-
-
 }
 
 /*.photo-item img:hover{
 	border: 3px double red;
 }*/
+
+/*========================= БЛОГ =================*/
 
 .blog-container{
 	background: #fafafa;
@@ -201,9 +212,6 @@ footer nav a:hover{
 	margin: 0 auto;﻿
 
 }
-
-
-
 
 .blog-body{
 	margin: 0 auto;
@@ -281,6 +289,8 @@ footer nav a:hover{
 
 }
 
+/*============== КАРТА ==========================*/
+
 #map{
 	margin: 0 auto;
 	margin-bottom: 10px;
@@ -288,6 +298,8 @@ footer nav a:hover{
 	max-width: 700px;
 	width: 100%;
 }
+
+/*=================== КОНТАКТ ======================*/
 
 .form{
 	width: 50%;
@@ -347,6 +359,8 @@ textarea{
 	transition: .3s ease;
 }
 
+/*================== О НАС ========================*/
+
 .about_container{
 	width: 80%;	
 	margin: 10px auto;
@@ -367,6 +381,8 @@ textarea{
 .about_container h1{
 	margin-top: 40px;
 }
+
+/*======================= СЕРВИСЫ ====================*/
 
 .sevices{
 	width: 80%;
