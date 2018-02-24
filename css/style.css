@@ -17,6 +17,8 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+/*==================== ХЕДЕР ЛОГО =========================*/
+
 .logo{
 	background: #000;
 	width: 100%;
@@ -83,6 +85,8 @@ nav{
 	width: 30%;
 }
 
+/*==================== ФУТЕР =======================*/
+
 footer{
 	width: 100%;
 	height: auto;
@@ -125,6 +129,8 @@ footer nav a:hover{
 }
 
 
+/*==================== ГАЛЕРЕЯ =====================*/
+
 .gallery{
 
 	width: 80%;
@@ -146,6 +152,8 @@ footer nav a:hover{
 	padding: 2px;
 	box-sizing: border-box;
 	max-width: 100%;
+	position:relative;
+	padding-bottom:50px;
 }
 
 .price {
@@ -157,6 +165,9 @@ footer nav a:hover{
 	text-align: center;
 	font-size: 2em;
 	border-radius: 0 50px 50px 0;
+	position:absolute;
+	bottom:0;
+
 
 }
 
