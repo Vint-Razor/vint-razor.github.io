@@ -43,6 +43,8 @@ body{
 	box-sizing: border-box;
 }
 
+/*======================  МЕНЮ =============================*/
+
 nav{
 	margin: auto;
 	width: 800px;
@@ -52,7 +54,8 @@ nav{
 .topnav{
 	background-color: #fff;
 	font-size: 14px;
-	margin-top: 40px;	
+	margin-top: 40px;
+	z-index: 100;	
 
 }
 
