@@ -157,14 +157,15 @@ footer nav a:hover{
 	width: 24%;
 	border: 1px solid  #e6e6e6;
 	border-radius: 10px;
+	position:relative;
+	padding-bottom:50px;
 }
 
 .photo-item img{
 	padding: 2px;
 	box-sizing: border-box;
 	max-width: 100%;
-	position:relative;
-	padding-bottom:50px;
+	
 }
 
 .price {
